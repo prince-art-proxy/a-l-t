@@ -1,0 +1,52 @@
+{
+  "name": "ultraviolet-enhanced-proxy",
+  "version": "2.0.0",
+  "description": "Enhanced Ultraviolet proxy with modern browser interface, bookmarks, history, and privacy features",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server -p 8000 -c-1",
+    "dev": "npx http-server -p 8000 -c-1 --cors",
+    "build": "echo 'No build process needed for static files'",
+    "lint": "echo 'Linting not configured'",
+    "test": "echo 'No tests configured'"
+  },
+  "keywords": [
+    "proxy",
+    "uv",
+    "ultraviolet",
+    "censorship",
+    "bypass",
+    "privacy",
+    "browser",
+    "web-proxy"
+  ],
+  "author": "MiniMax Agent",
+  "license": "AGPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/titaniumnetwork-dev/Ultraviolet"
+  },
+  "homepage": "https://github.com/titaniumnetwork-dev/Ultraviolet",
+  "bugs": {
+    "url": "https://github.com/titaniumnetwork-dev/Ultraviolet/issues"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "dependencies": {},
+  "files": [
+    "index.html",
+    "sw.js",
+    "styles/",
+    "scripts/",
+    "README.md"
+  ]
+}
